@@ -1,0 +1,4 @@
+netstat -an | findstr "[port number]"
+
+If the port is open, you will see a line that says "TCP 0.0.0.0:80 0.0.0.0:0 LISTENING".
+If the port is closed, there will be no output.
